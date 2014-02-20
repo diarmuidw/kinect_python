@@ -8,6 +8,11 @@ import numpy as np
 
 keep_running = True
 
+'''
+will cave depth and colour np arrays to ../scans/tictime/depth and colour
+these can be use to replay data later
+
+'''
 
 def get_depth():
     data = freenect.sync_get_depth()[0]
